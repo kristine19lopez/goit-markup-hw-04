@@ -336,6 +336,7 @@ body {
     /* main */
 .section-five {
     padding: 96px 0 120px 0;
+    display: block;
 }
 .option {
     display: flex;
