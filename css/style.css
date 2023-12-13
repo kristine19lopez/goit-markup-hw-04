@@ -21,9 +21,9 @@ body {
 .header {
     border-bottom: 1px solid #e7e9fc;
     /* HW4 */
-    box-shadow:  0px 2px 1px rgba (46, 47, 66, 0.08),
-     0px 1px 1px rgba(46, 47, 66, 0.16), 
-     0px 1px 6px rgba (46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08)
+    , 0px 1px 1px rgba(46, 47, 66, 0.16)
+    , 0px 1px 6px rgba (46, 47, 66, 0.08);
 }
 .top-head {
     display: flex;
@@ -291,6 +291,7 @@ body {
 } 
 .sec-link:focus{ 
     border-color:  var(--moderate-blue);
+    color: var(--moderate-blue);
 }
 .client{
     fill: currentColor;
@@ -326,7 +327,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     color: var(--WHITE);
     margin-bottom: 16px;
 }
@@ -349,7 +350,7 @@ body {
 }
 .media-link:hover ,
 .media-link:focus {
-    #31d0aa 
+    background-color: #31d0aa; 
 }
 
 .footer-icon{
