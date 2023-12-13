@@ -103,8 +103,9 @@ body {
 .section-one {
     background-color: var(--NAVY-BLUE);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)), 
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), 
      url(../images/people-office.jpg);
      max-width: 1440px;
      background-repeat: no-repeat, no-repeat;
@@ -256,7 +257,7 @@ body {
 
 /* section five */
 .section-five{
-    padding: 120px 0;
+    padding: 120px 0 120px;
 }
 .secfive-header{
     font-size: 36px;
@@ -286,9 +287,13 @@ body {
 
 .sec-link:hover{
     border-color: var(--moderate-blue);
+    color: var(--moderate-blue);
 } 
 .sec-link:focus{ 
-    color: var(--moderate-blue);
+    border-color:  var(--moderate-blue);
+}
+.client{
+    fill: currentColor;
 }
 
 /* footer */
@@ -336,7 +341,6 @@ body {
     /* main */
 .section-five {
     padding: 96px 0 120px 0;
-    display: block;
 }
 .option {
     display: flex;
